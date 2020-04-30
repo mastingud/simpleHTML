@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="CSSAsli.css" rel="stylesheet">
+    <title>Portofolio</title>
+</head>
+<body>
+    <header>
+        <h1> <font face="Royal Fighter">Portofolio</font></h1>
+        <nav>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Biodata</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+              </ul>
+          </nav>
+    </header>
+    <main class="isi">
+        <div class="article">
+        <article id="article1">
+          
+        <div class="atas">
+          <p class="star">StarMarker</p>
+          <div class="videoo">
+            <video width="320" height="240" controls autoplay>
+                <source src="StarMarker.mp4" type="video/mp4">
+                </div>
+            
+        </div>
+        <div class="tulisan">
+          <p id="demo">One Piece</p>
+          <button onclick="Ganti()">Klik</button>
+         <script>
+         function Ganti() {
+          document.getElementById("demo").innerHTML = "All Blue!";
+         }
+         </script>
+        </div>
+      </article>
+
+      <article id="article2">
+        <h2> Sejarah HTML</h2>
+        <p><font face="Bahnschrift SemiBold">Hypertext Markup Language atau yang biasa disingkat HTML pertama kali diciptakan dan dikembangkan oleh Tim Berners-Lee pada awal tahun 1990-an yang pada saat itu masih bekerja di CERN. HTML diciptakan dengan tujuan sebagai cara sederhana namun efektif untuk mengkodekan dokumen elektronik. HTML pertama kali dipopulerkan  dengan menggunakan browser Mosaic.</font></p>
+             </article>
+      </div>
+      <aside class="aside">
+        <img class="gambar1" src="allemblem.jpg" alt="...">
+        <div class="aside-text">
+            <p> <font face="Bahnschrift SemiBold">Hello, my name is Dhio Reza Prasetyo and this is my Bio.</font> <p/>
+            <p> <font face="Bahnschrift SemiBold">My name is Dhio Reza Prasetyo, you can call me with Dhio, Reza, or whatever you want to call me what.</font></p> 
+            <p> <font face="Bahnschrift SemiBold">I was born at December 7th 1997 in one of the hospitals in Jakarta.</font> </p>
+          </div>
+          </aside>
+    </main>
+    <footer>
+      &copy; 2020, Dhio Reza
+    </footer>
+</body>
+</html>
